@@ -23,15 +23,16 @@ export const AboutSection: React.FC = () => {
                   <span className="text-slate-400">BRASÍLIA - DF</span>
                 </div>
 
-                {/* Secondary Composition of Samuel */}
+                {/* Secondary Composition */}
                 <div className="relative rounded-xl overflow-hidden bg-slate-950 aspect-[4/4.5]">
                   <img
-                    src="/samuel-monitors.png"
+                    src={`${import.meta.env.BASE_URL}samuel-monitors.png`}
                     alt="Samuel Rodrigues Lopes - Atuação Operacional e Observabilidade"
                     className="w-full h-full object-cover object-center filter contrast-[1.04] group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/samuel-github.png';
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = 'https://github.com/samuel-RLprog.png';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070b14]/90 via-transparent to-transparent" />
