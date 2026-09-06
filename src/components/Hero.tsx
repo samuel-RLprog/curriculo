@@ -163,7 +163,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCurriculum }) => {
             </div>
           </div>
 
-          {/* Right Column: Samuel's Professional Photo with High-Tech Composition */}
+          {/* Right Column: Professional Photo with High-Tech Composition */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md">
               {/* Outer Decorative Tech Frame */}
@@ -190,12 +190,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCurriculum }) => {
                     className="w-full h-full object-cover object-top filter contrast-[1.03] group-hover:scale-[1.02] transition-transform duration-500"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}samuel-github.png`;
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = 'https://github.com/samuel-RLprog.png';
                     }}
                   />
-                
-                  {/* Subtle Gradient Overlay at bottom for clean label integration */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#070b14] via-transparent to-transparent opacity-80" />
 
                   {/* Subtle Gradient Overlay at bottom for clean label integration */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070b14] via-transparent to-transparent opacity-80" />
