@@ -185,15 +185,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCurriculum }) => {
                 {/* Professional Photo */}
                 <div className="relative rounded-xl overflow-hidden bg-slate-900 aspect-[4/5] flex items-center justify-center">
                   <img
-                    src="/samuel-hero.png"
+                    src={`${import.meta.env.BASE_URL}samuel-hero.png`}
                     alt="Samuel Rodrigues Lopes - Profissional de Infraestrutura de TI e Observabilidade"
                     className="w-full h-full object-cover object-top filter contrast-[1.03] group-hover:scale-[1.02] transition-transform duration-500"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      // Fallback to github avatar if needed
-                      (e.target as HTMLImageElement).src = '/samuel-github.png';
+                      (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}samuel-github.png`;
                     }}
                   />
+                
+                  {/* Subtle Gradient Overlay at bottom for clean label integration */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#070b14] via-transparent to-transparent opacity-80" />
 
                   {/* Subtle Gradient Overlay at bottom for clean label integration */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070b14] via-transparent to-transparent opacity-80" />
