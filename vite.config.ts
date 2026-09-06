@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',
+    base: '/curriculo/', // <-- Altere de './' para '/curriculo/'
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
