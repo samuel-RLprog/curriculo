@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   phone: '(61) 9 9285-7256',
   phoneRaw: '5561992857256',
   email: 'samuelrodrigus@gmail.com',
-  linkedin: 'linkedin.com/in/samuelr',
+  linkedin: '/linkedin.com/in/samuelr',
   linkedinDisplay: 'linkedin.com/in/samuelr',
   github: 'https://github.com/samuel-RLprog?tab=repositories',
   githubUser: 'samuel-RLprog',
