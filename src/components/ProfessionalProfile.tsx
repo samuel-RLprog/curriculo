@@ -29,7 +29,7 @@ export const ProfessionalProfile: React.FC = () => {
             <span>Valores e Postura Operacional</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            O QUE VOCÊ PODE ESPERAR DE SAMUEL?
+            O QUE VOCÊ PODE ESPERAR SOBRE MINHAS HABILIDADES?
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-300">
             Competências comportamentais e atitude profissional para equipes de alto desempenho.
