@@ -13,10 +13,10 @@ export const VideoSection: React.FC = () => {
             <span>Apresentação em Vídeo</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            SAMUEL EM VÍDEO
+            MEU EM VÍDEO
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-300">
-            Conheça um pouco mais sobre Samuel, sua experiência e sua atuação profissional.
+            Conheça um pouco mais sobre minhas habilidades, nessa apresentaão em vídeo.
           </p>
         </div>
 
