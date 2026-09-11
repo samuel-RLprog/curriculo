@@ -16,7 +16,7 @@ export const VideoSection: React.FC = () => {
             MEU EM VÍDEO
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-300">
-            Conheça um pouco mais sobre minhas habilidades, nessa apresentaão em vídeo.
+            Conheça um pouco mais sobre minhas habilidades, nessa apresentação em vídeo.
           </p>
         </div>
 
